@@ -16,9 +16,9 @@
         #     ('remove', 'demo/static/src/bundle/components/control_panel/spreadsheet_breadcrumbs.xml'),
         # ],
         'web.assets_backend': [
+            'demo/static/src/views/**/*',
             'demo/static/src/demo_view/**/*',
             'demo/static/src/spreadsheet_action_loader.js',
-            'demo/static/src/views/**/*',
             # 'demo/static/src/bundle/components/control_panel/spreadsheet_breadcrumbs.xml',
         ],
     }

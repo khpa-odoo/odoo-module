@@ -11,7 +11,9 @@
         <field name="model">demo.demo</field>
         <field name="arch" type="xml">
             <tree string="Channel">
+                
                 <field name="handler"/>
+                <button type="object" name="action_create_spreadsheet" string="Spreadsheet"/>
             </tree>
         </field>
     </record>
