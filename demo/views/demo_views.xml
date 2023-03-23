@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="demo_view_action" model="ir.actions.act_window">
+        <field name="name">Demo Data</field>
+        <field name="res_model">demo.demo</field>
+        <field name="view_mode">kanban,tree,form</field>
+    </record>
+
+    <record id="demo_view_list" model="ir.ui.view">
+        <field name="name">demo.demo.view.list</field>
+        <field name="model">demo.demo</field>
+        <field name="arch" type="xml">
+            <tree string="Channel">
+                <field name="handler"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

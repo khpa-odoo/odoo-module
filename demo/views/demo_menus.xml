@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem
+        id="demo_menu_root"
+        name="Demo"
+        sequence="15"/>
+
+    <menuitem
+        id="demo_menu_first_level"
+        name="Home"
+        parent="demo_menu_root"
+        action="demo_view_action"
+        sequence="1"/>
+</odoo>
