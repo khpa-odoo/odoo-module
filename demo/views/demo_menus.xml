@@ -9,6 +9,12 @@
         id="demo_menu_first_level"
         name="Home"
         parent="demo_menu_root"
-        action="demo_view_action"
         sequence="1"/>
+
+    <menuitem
+        id="demo_menu_second_level"
+        name="Demo Data"
+        parent="demo_menu_first_level"
+        action="demo_view_action"
+        sequence="2"/>
 </odoo>

@@ -1,6 +1,6 @@
 {
     'name':"Demo",
-    'depends': ['spreadsheet','documents'],
+    'depends': ['base'],
     'application': True,
     'installable': True,
     'license' : 'LGPL-3',
@@ -10,16 +10,13 @@
         'security/ir.model.access.csv',
     ],
     'assets': {
-        # 'spreadsheet.o_spreadsheet': [
-        #     'demo/static/src/bundle/**/*.js',
-        #     'demo/static/src/bundle/**/*.xml',
-        #     ('remove', 'demo/static/src/bundle/components/control_panel/spreadsheet_breadcrumbs.xml'),
-        # ],
-        'web.assets_backend': [
-            'demo/static/src/views/**/*',
-            'demo/static/src/demo_view/**/*',
-            'demo/static/src/spreadsheet_action_loader.js',
-            # 'demo/static/src/bundle/components/control_panel/spreadsheet_breadcrumbs.xml',
+        'demo.o_demo': [
+            'demo/static/src/drawapp/index.js',
+            'demo/static/src/bundle/**/*.js',
+            'demo/static/src/bundle/**/*.xml',
+        ],
+    'web.assets_backend': [
+            'demo/static/src/demo_action_loader.js',
         ],
     }
 }
